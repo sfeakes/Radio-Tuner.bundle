@@ -1,0 +1,41 @@
+[
+  {"id":"title1",  "label": "Stream 1: Name",       "type": "text", "default": "BBC World Service"},
+  {"id":"url1",    "label": "Stream 1: URL",        "type": "text", "default": "http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk"},
+  {"id":"type1",   "label": "Stream 1: Media type", "type": "enum", "default": "mp3", "values":["mp3","aac","flac","ogg"]},
+
+  {"id":"title2",  "label": "Stream 2: Name",       "type": "text", "default": ""},
+  {"id":"url2",    "label": "Stream 2: URL",        "type": "text", "default": ""},
+  {"id":"type2",   "label": "Stream 2: Media type", "type": "enum", "default": "mp3", "values":["mp3","aac","flac","ogg"]},
+
+  {"id":"title3",  "label": "Stream 3: Name",       "type": "text", "default": ""},
+  {"id":"url3",    "label": "Stream 3: URL",        "type": "text", "default": ""},
+  {"id":"type3",   "label": "Stream 3: Media type", "type": "enum", "default": "mp3", "values":["mp3","aac","flac","ogg"]},
+
+  {"id":"title4",  "label": "Stream 4: Name",       "type": "text", "default": ""},
+  {"id":"url4",    "label": "Stream 4: URL",        "type": "text", "default": ""},
+  {"id":"type4",   "label": "Stream 4: Media type", "type": "enum", "default": "mp3", "values":["mp3","aac","flac","ogg"]},
+
+  {"id":"title5",  "label": "Stream 5: Name",       "type": "text", "default": ""},
+  {"id":"url5",    "label": "Stream 5: URL",        "type": "text", "default": ""},
+  {"id":"type5",   "label": "Stream 5: Media type", "type": "enum", "default": "mp3", "values":["mp3","aac","flac","ogg"]},
+
+  {"id":"title6",  "label": "Stream 6: Name",       "type": "text", "default": ""},
+  {"id":"url6",    "label": "Stream 6: URL",        "type": "text", "default": ""},
+  {"id":"type6",   "label": "Stream 6: Media type", "type": "enum", "default": "mp3", "values":["mp3","aac","flac","ogg"]},
+
+  {"id":"title7",  "label": "Stream 7: Name",       "type": "text", "default": ""},
+  {"id":"url7",    "label": "Stream 7: URL",        "type": "text", "default": ""},
+  {"id":"type7",   "label": "Stream 7: Media Type", "type": "enum", "default": "mp3", "values":["mp3","aac","flac","ogg"]},
+
+  {"id":"title8",  "label": "Stream 8: Name",       "type": "text", "default": ""},
+  {"id":"url8",    "label": "Stream 8: URL",        "type": "text", "default": ""},
+  {"id":"type8",   "label": "Stream 8: Media type", "type": "enum", "default": "mp3", "values":["mp3","aac","flac","ogg"]},
+
+  {"id":"title9",  "label": "Stream 9: Name",       "type": "text", "default": ""},
+  {"id":"url9",    "label": "Stream 9: URL",        "type": "text", "default": ""},
+  {"id":"type9",   "label": "Stream 9: Media type", "type": "enum", "default": "mp3", "values":["mp3","aac","flac","ogg"]},
+
+  {"id":"title10",  "label": "Stream 10: Name",       "type": "text", "default": ""},
+  {"id":"url10",    "label": "Stream 10: URL",        "type": "text", "default": ""},
+  {"id":"type10",   "label": "Stream 10: Media type", "type": "enum", "default": "mp3", "values":["mp3","aac","flac","ogg"]}
+]
