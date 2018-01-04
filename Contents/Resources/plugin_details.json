@@ -1,0 +1,15 @@
+[
+  {
+    "title"           :     "Radio Tuner",
+    "bundle"          :     "Radio Tuner.bundle",
+    "type"            :     ["Music"],
+    "description"     :     "Stream custom URL's",
+    "repo"            :     "https://github.com/sfeakes/Radio-Tuner.bundle",
+    "branch"          :     "master",
+    "DeleteCacheDir"  :     false,
+    "DeleteDataDir"   :     false,
+    "identifier"      :     "com.plexapp.plugins.radiotuner",
+    "icon"            :     "icon-radiotuner.png",
+    "supporturl"      :     ""
+}
+]
