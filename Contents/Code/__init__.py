@@ -1,11 +1,10 @@
 #############
-## credit to DiegoV in New Zealand for some nice simple code to work from
+##
 #############
 TITLE    = 'Radio Tuner'
 ART      = 'art-default.jpg'
 ICON     = 'icon-default.png'
-
-PREFIX = '/music/radiotuner'
+PREFIX   = '/music/radiotuner'
 
 ####################################################################################################
 
