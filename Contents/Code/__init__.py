@@ -1,10 +1,11 @@
 #############
-##
+## credit to DiegoV in New Zealand for some nice simple code to work from
 #############
 TITLE    = 'Radio Tuner'
 ART      = 'art-default.jpg'
 ICON     = 'icon-default.png'
-PREFIX   = '/music/radiotuner'
+
+PREFIX = '/music/radiotuner'
 
 ####################################################################################################
 
@@ -25,7 +26,7 @@ def Start():
 ####################################################################################################
 
 @handler(PREFIX, TITLE)
-def MainMenu():
+def MainMenu(**kwargs):
 
     oc = ObjectContainer()
 
@@ -39,7 +40,8 @@ def MainMenu():
 
 
 ####################################################################################################
-def CreateTrackObject(url, title, fmt, include_container=False, includeBandwidths=False):
+#def CreateTrackObject(url, title, fmt, include_container=False, includeBandwidths=False ):
+def CreateTrackObject(url, title, fmt, include_container=False ):
       
 	# choose container and codec to use for the supplied format
     if fmt == 'mp3':
@@ -65,7 +67,8 @@ def CreateTrackObject(url, title, fmt, include_container=False, includeBandwidth
         audio_codec = AudioCodec.MP3
 
     track_object = TrackObject(
-        key=Callback(CreateTrackObject, url=url, title=title, fmt=fmt, include_container=True, includeBandwidths=False),
+#        key=Callback(CreateTrackObject, url=url, title=title, fmt=fmt, include_container=True, includeBandwidths=False),
+        key=Callback(CreateTrackObject, url=url, title=title, fmt=fmt, include_container=True),
         rating_key=url,
         title=title,
         thumb=R(ICON),
